@@ -1,0 +1,13 @@
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  ##OEROOT##/meta \
+  ##OEROOT##/meta-poky \
+  ##OEROOT##/meta-oe \
+  ##OEROOT##/meta-freescale \
+  ##OEROOT##/meta-solidrun-arm-imx8 \
+  ##OEROOT##/meta-boggybrn \
+  "
