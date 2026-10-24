@@ -1,2 +1,2 @@
-CONF_VERSION = "2"
-IMAGE_INSTALL:append = " htop"
+BB_NUMBER_THREADS = "5"
+PARALLEL_MAKE = "-j5"
